@@ -1,0 +1,34 @@
+.imgstyle{
+  height: 200px;
+  width: 200px;
+  padding: 25px;
+}
+.common{
+  padding: 15px;
+}
+.sidebar {
+    margin: 0;
+    width: 20vw;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    background-color: #54B689;
+    height: 100vh;
+    color: white;
+    /* animation: sidebarAnimate 2s infinite; */
+  }
+  .head1{
+    display: flex;
+    justify-content: center;
+  }
+  @keyframes sidebarAnimate {
+    0%{
+      background-color: rgb(158, 207, 228);
+    }
+    25%{
+      background-color: rgb(106, 159, 181);
+    }
+    50%{
+      background-color: rgb(83, 128, 148);
+    }
+  }
